@@ -1,0 +1,13 @@
+.widgets_widgetContainer {
+    display: flex;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+
+@media (max-width:990px) {
+    .widgets_widgetContainer {
+        justify-content: center;
+    }
+}
